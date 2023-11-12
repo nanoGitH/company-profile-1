@@ -4,8 +4,37 @@
 
 
 .jumbotron {
-    background-image: url(img/jumbotron.jpg);
+    background-image: url(../img/jumbotron.jpg);
     background-size: cover;
-    height: 540px;
-    text-align: center;
+    height: 600px;
+}
+
+.jumbotroncover {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0));;
+}
+
+.jumbotroncontainer {
+    width: 50%;
+}
+
+.jumbotronh1 {
+    font-size: 3.2rem;
+}
+.jumbotronp {
+    font-size: 1.1rem;
+}
+
+.joinus {
+    margin: 100px 0;
+}
+
+footer {
+    min-height: 200px;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
 }
