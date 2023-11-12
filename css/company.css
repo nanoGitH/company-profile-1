@@ -1,0 +1,11 @@
+.nav-item {
+    padding: 0 8px;
+}
+
+
+.jumbotron {
+    background-image: url(img/jumbotron.jpg);
+    background-size: cover;
+    height: 540px;
+    text-align: center;
+}
