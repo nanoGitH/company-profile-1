@@ -26,6 +26,10 @@
     font-size: 1.1rem;
 }
 
+body .excellence .row .excellence-col {
+    border-right: 3px solid white;
+}
+
 .joinus {
     margin: 100px 0;
 }
@@ -37,4 +41,26 @@ footer {
 footer a {
     text-decoration: none;
     color: black;
+}
+
+/* Media Queries */
+@media (max-width: 992px) {
+    body .excellence .row .item-mudah {
+        border-right: none;
+    }
+}
+@media (max-width: 768px) {
+    body .excellence .row .excellence-col {
+        border-right: none;
+        border-bottom: 2px solid whitesmoke;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+    }
+
+    footer .container-fluid .row .col-md-3 {
+        text-align: center;
+    }
+    footer .container-fluid .row .col-md-3 .brand {
+        margin-bottom: 10px;
+    }
 }
